@@ -1,0 +1,18 @@
+# Site settings
+title: Francis Bongiovanni 
+email: fbongiovanni29@gmail.com 
+description: [ 
+  "Francis Bongiovanni is a Software Developer residing in Philly currently coding for fun and searching for full-time work. Most of his background is Ruby on Rails although he recently developed some Angular chops.",
+  "He is a terminal enthusiast, mastering Vim since he started coding and recently getting hooked on TMUX and a little Zsh. Outside of the rush of nerdiness this gives him, he's made it a point to develop a good workflow before joining the workforce.",
+  "Francis graduated Philadelphia's New York Code + Design Academy in November. The best thing he learned there is that he is capable of continually hitting walls and be able to move forward.",
+  "Since moving to Philly in August, he has become very active in the community. organizing a meetup, Hello, World Philly!, presenting at Philly.rb and Software as Craft, regularly volunteering for Tech Girlz and participating in the White House Tech Initiative. He usually attends a meetup or two a week mostly to make friends in the community but also because...there's usually free pizza.",
+  "Code-related, his personality consists of terrible code puns, he conceitedly refers to himself as the self-proclaimed King of Code Puns. He is also well known as Vim Diesel because he lives life one QWERTY mile at a time (That joke would be better if hjkl was a unit of distance). Hating on CSS and using Bootstrap to avoid writing it at all costs. Also, command-tabbing to Slack all the time because there's no better way to slack(...see terrible)."
+]
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: fbongiovanni29 
+github_username: fbongiovanni29 
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+	<img class="selfie" src="./assets/professional.jpg">
+	<div class="description">
+	  {% for i in (0..site.description.size) %}
+	    <p>{{ site.description[i] }}</p>
+	  {% endfor %}
+	</div>
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
