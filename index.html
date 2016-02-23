@@ -2,9 +2,15 @@
 layout: default
 ---
 
+<p><img class="selfie" src="./assets/professional.jpg"/>
+  {% for i in (0..site.description.size) %}
+    <p>{{ site.description[i] }}</p>
+  {% endfor %}
+</p>
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
+
 
   <ul class="post-list">
     {% for post in site.posts %}

@@ -23,10 +23,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:   1000px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        950px;
 
 
 
@@ -44,13 +44,24 @@ $on-laptop:        800px;
 }
 
 .description {
-  float: right;
-  width: 400px;
+  @media screen and (min-width: $on-laptop){
+    float: right;
+  }
+  margin-top: 15px;
+  width: 630px;
   text-indent: 30px;
 }
 
 .selfie {
-  border-radius: 40%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 40%;
+  @media screen and (max-width: 700px) {
+    height: 300px; 
+    border-radius: 0%;
+    width: 100%
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

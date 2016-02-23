@@ -9,6 +9,34 @@ description: [
   "Code-related, his personality consists of terrible code puns, he conceitedly refers to himself as the self-proclaimed King of Code Puns. He is also well known as Vim Diesel because he lives life one QWERTY mile at a time (That joke would be better if hjkl was a unit of distance). Hating on CSS and using Bootstrap to avoid writing it at all costs. Also, command-tabbing to Slack all the time because there's no better way to slack(...see terrible)."
 ]
 
+portfolio: [{
+    title: "NYCDA Overflow",
+    github: "https://github.com/fbongiovanni29/NYCDA-Overflow",
+    url: "http://ec2-54-191-110-44.us-west-2.compute.amazonaws.com",
+    description: "NYCDA Overflow was built as a collaborative Rails group project built during my time at NYCDA. The app's purpose is to help students at the school communicate their code related questions. The app reinforced my Rails skills and was a great opportunity to collobarate with developers. We started determining what the app would be, wrote up the controllers and models (ended up redo-ing them) and collaborated in person, through GitHhub and on Slack. Recently, I've gone back to the code, used it to practice TDD and refactored it to a DRY codebase."
+  },
+  {
+    title: "Philly Dev Jobs",
+    url: "http://blue-zebra.surge.sh/#/",
+    github: "https://github.com/fbongiovanni29/opportunities",
+    description: "Philly Dev Jobs is a Civic App in which I've architected a an Angular Front End for. Struggles I had with this include nesting JSON and dynamically rendering templates. The best thing I learned from this site was collobartiing with more experienced developers both remotely via GitHub and Slack as well as at Code for Philly. The attached link is a demo site due to github pages not be capable of serving apps. The real app is at elaney.github.io/opportunities/"
+    },
+  {
+    title: "Vimtorials, Git Wit it Or Git Lost, DIY ORM",
+    url: "https://github.com/fbongiovanni29?tab=repositories",
+    github: "https://github.com/fbongiovanni29/vimtorials",
+    description: "These three apps are ones I've built out my love for the Command Line. Vimtorials is a platform I constructed for building Vim based tutorials. Git With It or Git Lost is a few highly detailed bash aliases that gives a user easy to remember commands to learn Git. The DIY ORM is a Ruby Object Relational Mapping program built in PostgreSQL."
+    },
+  {
+    title: "This site!",
+    url: "http://francis.bongiovanni.codes",
+    github: "https://github.com/fbongiovanni29/fbongiovanni29.github.io",
+    description: "This is my latest fully new app Although Jekyll is not as hard to learn as Rails or Angular it is something I would have greatly struggled with not too far in the past. From the second I installed it I understood how everything in the file structure worked and was able to get it up and running in no time."
+    },
+]
+
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: fbongiovanni29 
