@@ -2,11 +2,11 @@
 title: Francis Bongiovanni 
 email: fbongiovanni29@gmail.com 
 description: [ 
-  "Francis Bongiovanni is a Software Developer residing in Philly currently coding for fun and searching for full-time work. Most of his background is Ruby on Rails although he recently developed some Angular chops.",
-  "He is a terminal enthusiast, mastering Vim since he started coding and recently getting hooked on TMUX and a little Zsh. Outside of the rush of nerdiness this gives him, he's made it a point to develop a good workflow before joining the workforce.",
+  "Francis Bongiovanni is a Software Developer residing in Philly currently teaching at Parkway Center City High School, coding for fun and searching for full-time work. Most of his background is Ruby on Rails although he recently developed some Angular chops.",
+  "He is a terminal enthusiast, mastering Vim since he started coding and recently getting hooked on TMUX and a little Zsh (althought he just started playing with <a href='https://github.com/syl20bnr/spacemacs'><em>spac</em>emacs</a>). Outside of the rush of nerdiness this gives him, he's made it a point to develop a good workflow before joining the workforce.",
   "Francis graduated Philadelphia's New York Code + Design Academy in November. The best thing he learned there is that he is capable of continually hitting walls and be able to move forward.",
   "Since moving to Philly in August, he has become very active in the community. organizing a meetup, Hello, World Philly!, presenting at Philly.rb and Software as Craft, regularly volunteering for Tech Girlz and participating in the White House Tech Initiative. He usually attends a meetup or two a week mostly to make friends in the community but also because...there's usually free pizza.",
-  "Code-related, his personality consists of terrible code puns, he conceitedly refers to himself as the self-proclaimed King of Code Puns. He is also well known as Vim Diesel because he lives life one QWERTY mile at a time (That joke would be better if hjkl was a unit of distance). Hating on CSS and using Bootstrap to avoid writing it at all costs. Also, command-tabbing to Slack all the time because there's no better way to slack(...see terrible)."
+  "Code-related, his personality consists of terrible code puns, he conceitedly refers to himself as the self-proclaimed King of Code Puns. He is also well known as Vim Diesel because he lives life one QWERTY mile at a time (That joke would be better if hjkl was a unit of distance). Using bootstrap to avoid writing on CSS at all costs. Also, command-tabbing to Slack all the time because there's no better way to slack(...that's about as terrible as they get)."
 ]
 
 portfolio: [{
@@ -22,16 +22,22 @@ portfolio: [{
     description: "Philly Dev Jobs is a Civic App in which I've architected a an Angular Front End for. Struggles I had with this include nesting JSON and dynamically rendering templates. The best thing I learned from this site was collobartiing with more experienced developers both remotely via GitHub and Slack as well as at Code for Philly. The attached link is a demo site due to github pages not be capable of serving apps. The real app is at elaney.github.io/opportunities/"
     },
   {
-    title: "Vimtorials, Git Wit it Or Git Lost, DIY ORM",
+    title: "Vimtorials, Terminal Cheatsheet, DIY ORM",
     url: "https://github.com/fbongiovanni29?tab=repositories",
-    github: "https://github.com/fbongiovanni29/vimtorials",
-    description: "These three apps are ones I've built out my love for the Command Line. Vimtorials is a platform I constructed for building Vim based tutorials. Git With It or Git Lost is a few highly detailed bash aliases that gives a user easy to remember commands to learn Git. The DIY ORM is a Ruby Object Relational Mapping program built in PostgreSQL."
+    github: "https://github.com/fbongiovanni29/",
+    description: "These three apps are ones I've built out my love for the Command Line. Vimtorials is a platform I constructed for building Vim based tutorials. Terminal cheatsheet(school-script) generates a shell script Cheatsheet to help beginners learn the terminal as well as  create a .bash_profile. The DIY ORM is a Ruby Object Relational Mapping program built in PostgreSQL."
     },
   {
     title: "This site!",
     url: "http://francis.bongiovanni.codes",
     github: "https://github.com/fbongiovanni29/fbongiovanni29.github.io",
-    description: "This is my latest fully new app Although Jekyll is not as hard to learn as Rails or Angular it is something I would have greatly struggled with not too far in the past. From the second I installed it I understood how everything in the file structure worked and was able to get it up and running in no time."
+    description: "This is my latest app built from scratch built with Jekyll. Although Jekyll is not as hard to learn as Rails or Angular it is something I would have greatly struggled with not too far in the past. From the second I installed it I understood how everything in the file structure worked and was able to get it up and running in no time."
+    },
+  {
+    title: "Whiz Kids | White Houst Tech Initiative",
+    url: "http://nycda.zone/bongiovanni819/phillytech2/",
+    github: "https://github.com/fbongiovanni29/whizkids",
+    description: "Project built for the White House Tech Initiative in Philadelphia to help workers without a traditional degree find employment. Utilizes Materializes and turned in as my final project for Front End 101 at the New York Code + Design Academy."
     },
 ]
 
